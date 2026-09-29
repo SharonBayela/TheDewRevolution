@@ -271,6 +271,13 @@ p{ margin:0 0 1em; color:var(--ink-600); }
   box-shadow:var(--shadow-soft);
   background:var(--sky-100);
 }
+.badge-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 10%; /* Shifts the image down so the face is centered and fully visible */
+  display: block;
+}
 .hero-art .badge-frame{ width:min(340px,70vw); aspect-ratio:3/4; }
 .hero-art .badge-frame img{ width:100%; height:100%; object-fit:cover; }
 .hero-art .float-chip{
